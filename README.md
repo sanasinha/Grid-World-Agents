@@ -54,11 +54,5 @@ On Windows, use `;` instead of `:` in the classpath (`-cp ./lib/*;.`).
 
 Useful flags: `--hz 2` slows rendering down so you can watch each turn, `-s` runs without the GUI, and `--seed N` fixes the random seed.
 
-## What I learned
-
-- How a turn-based game loop works, and how to write an agent against a read-only state view (`StateView`).
-- How to separate setup that needs world state from per-turn decision making.
-- The difference between scripted behaviour (`ScriptedAgent`) and behaviour that generalizes across maps (`ZigZagAgent`, `ClosestUnitAgent`).
-
 ---
 *Coursework for CS 440 at Boston University. The game engine and starter scaffolding were provided by the course staff. The agent logic is my own.*
